@@ -53,7 +53,7 @@ s 0,(1,2),(2,4),(4,1),0,0,(4,3),(3,1),0
 Quality line begins with a lower case “q” followed by a space (ASCII code 32). Only one such line is allowed and it is mandatory. The solution quality (i.e., the total cost) of your best found solution must be printed in this line. The “q” line of the above example is:
 
 q 15
-2.4. Format of CARP problem instance
+### 2.4. Format of CARP problem instance
 The format of the CARP problem instances can be found in the instruction we provide (CARP_format.txt), and we also provide some CARP instance files as examples (CARP_samples/).
 
 ## 3. Evaluation
