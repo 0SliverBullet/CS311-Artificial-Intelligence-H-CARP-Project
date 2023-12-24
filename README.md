@@ -1,5 +1,12 @@
 # CS311 Artificial Intelligence(H) Capacitied Arc Routing Problems Project
 This repository is for SUSTech CS311 Artificial Intelligence(H) CARP Project.
+
+`source code`: [CARP_solver.py](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/CARP_solver.py)
+
+`report`:  [Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing(100/100)](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing.pdf)
+
+`dataset`: [7 basic + eglese](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/tree/main/CARP_samples)
+
 ## 1. Overview
 In this project you need to design and implement heuristic search algorithms for CARP, a classical NP-hard arc routing problem. An introduction to CARP (including problem formulation and solution representation) can be found in the slides we provide (CARP.pdf). Overall, CARP is a constrained optimization problem, and your algorithm needs to find high-quality feasible solutions to it. The scores you get in this project will be given according to your algorithm’s performance in our test.
 
@@ -30,9 +37,9 @@ handle the arguments passed from our scripts while being called as above
 measure the runtime, and terminate after the time budget is consumed. Typically, in python 3.6 you can measure runtime using time.time():
 
     start = time.time()
-
+    
     ...solving carp
-
+    
     un_time = (time.time() - start)
 Note here although our tests rely on your solver’s internal time measurement, we will still measure your solver’s runtime from external, so make sure that your solver’s internal time measurement is accurate.
 
@@ -89,5 +96,4 @@ CMD ["python3"]
 ![image](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/assets/110400562/6880f0d7-bed8-442b-9410-cd2e971e086b)
 ### 5.2 Stage2
 ![image](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/assets/110400562/7a309bc0-cb82-48aa-a1ee-e0c09940a856)
-
 
