@@ -5,6 +5,7 @@ import os
 import sys
 from math import exp
 from copy import copy, deepcopy
+threshold=3000
 POPSIZE=5    # the size of population
 Ts=1
 iter=40
@@ -123,7 +124,7 @@ class Solver:
         self.BEST=deepcopy(self.individual[id])
         # self.SA_0()
         avg_time=0
-        if self.BEST.sum_cost<3000:
+        if self.BEST.sum_cost<threshold:
             while run_time <= self.termination-avg_time:
             #while iter<1:
                 iter0 += 1
