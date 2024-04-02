@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+authors:
+  - name: "Zubin Zheng"
+title: "CS311 Artificial Intelligence(H) Capacitied Arc Routing Problems Project"
+date-released: 2024-04-01
+url: "https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project"
+license: MIT
