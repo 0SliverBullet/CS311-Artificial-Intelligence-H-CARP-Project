@@ -50,6 +50,7 @@ Your solver must print messages to the standard output. These messages will be u
 Solution line begins with a lower case “s” followed by a space (ASCII code 32). Only one such line is allowed and it is mandatory. The best solution your solver has found for the CARP problem instance must be printed in this line. The format of the solution can be found in the slides we provide (CARP.pdf). For example, for the CARP instance given below, the “s” line is:
 
 s 0,(1,2),(2,4),(4,1),0,0,(4,3),(3,1),0
+
 Quality line begins with a lower case “q” followed by a space (ASCII code 32). Only one such line is allowed and it is mandatory. The solution quality (i.e., the total cost) of your best found solution must be printed in this line. The “q” line of the above example is:
 
 q 15
