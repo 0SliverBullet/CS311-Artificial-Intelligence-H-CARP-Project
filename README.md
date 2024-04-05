@@ -1,5 +1,5 @@
-# CS311 Artificial Intelligence(H) Capacitied Arc Routing Problems Project
-This repository is for SUSTech CS311 Artificial Intelligence(H) CARP Project.
+# CS311 Artificial Intelligence (H) Capacitied Arc Routing Problems Project
+This repository is for SUSTech CS311 Artificial Intelligence (H) CARP Project.
 
 `source code`: [CARP_solver.py](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/CARP_solver.py)
 
