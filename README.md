@@ -3,9 +3,12 @@ This repository is for SUSTech CS311 Artificial Intelligence(H) CARP Project.
 
 `source code`: [CARP_solver.py](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/CARP_solver.py)
 
-`report`:  [Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing(100/100)](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing.pdf)
+`report`:  [Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing (100/100)](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/blob/main/Solving_Capacitated_Arc_Routing_Problems_with_Evolutionary_Simulated_Annealing.pdf)
 
-`dataset`: [7 basic + eglese](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/tree/main/CARP_samples)
+`dataset`: 
+
+- [CARP_samples](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/tree/main/CARP_samples): *basic* (7 instances) + *eglese* (24 instances), which are used in this project.
+- [CARP_benchmark_sets](https://github.com/0SliverBullet/CS311-Artificial-Intelligence-H-CARP-Project/tree/main/CARP_benchmark_sets): *bccm* (34 instances) + *gdb* (23 instances) + *kshs* (6 instances) + *eglese* (34 instances), which are CARP benchmark in the research on CARP.
 
 ## 1. Overview
 In this project you need to design and implement heuristic search algorithms for CARP, a classical NP-hard arc routing problem. An introduction to CARP (including problem formulation and solution representation) can be found in the slides we provide (CARP.pdf). Overall, CARP is a constrained optimization problem, and your algorithm needs to find high-quality feasible solutions to it. The scores you get in this project will be given according to your algorithm’s performance in our test.
