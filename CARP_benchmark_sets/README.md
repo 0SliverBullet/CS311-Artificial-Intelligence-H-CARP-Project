@@ -138,7 +138,8 @@ Edges with positive demand are given in this section. Each line is of the form
 
 ( <integer> , <integer> )  coste  <integer>   demanda  <integer> 
 
-The pair of integers between parenthesis give the node indices of the endpoints of the edge. The other two integers specify the traversing cost and the demand, respectively.
+The pair of integers between parenthesis give the node indices of the endpoints of the edge.
+The other two integers specify the traversing cost and the demand, respectively.
 
 -----------------------------------------------
 DEPOSITO :    <integer>
